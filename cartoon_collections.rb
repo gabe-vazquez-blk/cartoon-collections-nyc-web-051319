@@ -7,6 +7,8 @@ end
 
 def summon_captain_planet(veggies)# code an argument here
   # Your code here
+  veggies.collect do |veggie|
+    veggie.upcase << "!"
 end
 
 def long_planeteer_calls# code an argument here
